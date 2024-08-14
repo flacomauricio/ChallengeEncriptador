@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <div class="header">
+        <img class="header_logo" src="img/Logo.png" alt="Logo Alura">
+       </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="left">
+                <textarea id="ingresoTexto" class="ingreso_texto" placeholder="Ingrese Texto Aqui"></textarea>
+                <div class="left__footer">
+                    <img src="./img/exclamation.png" alt="Signo Exclamacion">
+                    <span class="left__info">Solo letras minusculas y sin acento</span>
+                    <div class="left__botones">
+                        <button id="botonEncriptar" class="boton_encriptar">Encriptar</button>
+                        <button id="botonDesencriptar" class="boton_desencriptar">Desencriptar</button>
+                    </div>                    
+                </div>                
+            </div>
+
+            <div id="right" class="right">
+              
+                <img id="muneco" class="muneco" src="./img/muñeco.png" alt="muñeco Alura">
+              
+                <textarea id="mensajeFinal" class="mensaje__final" placeholder="Ningun Mensaje Fue Encontrado"></textarea>
+               
+               <p id="rightInfo" class="right__info">Ingresa el Texto que desees encriptar o Desencriptar</p>
+               
+               <button id="botonCopiar" class="boton__copiar oculto">Copiar</button>
+            </div>
+        </div>
+        
+    </main>
+    <footer class="footer">
+        <p class="copyright">&copy; Desarrollado por Mauricio Nieva</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
